@@ -39,4 +39,8 @@ export class DashBoardComponent {
     path : "assets/images/jira.png"
   }
 ]
+ngOnInit(): void {
+  // Optionally, adjust scroll position here
+  window.scrollTo({ top: 0, behavior: 'smooth' }); // Scrolls to the top of the page when the home component is loaded
+}
 }
