@@ -9,7 +9,7 @@
   </div>
   <div class="row mt-5">
     <div class="col-12">
-      <h4>About Me</h4>
+      <h4 class="mb-4">About Me</h4>
       <p class="about-text">
         Hi, I'm Apeksha, a frontend developer passionate about crafting engaging web experiences. With a focus on marrying design and functionality,
         I specialize in creating intuitive user interfaces that leave a lasting impression. I thrive on the dynamic nature of web development, constantly exploring new technologies to stay ahead of the curve. I bring a unique blend of creativity and technical prowess to every project. Through my portfolio, I invite you to dive into my work and see firsthand the dedication I bring to each endeavor. Let's collaborate and turn your ideas into digital masterpieces!
@@ -18,7 +18,7 @@
   </div>
   <div class="row mt-5">
     <div class="col-12">
-      <h4>My Skills</h4>
+      <h4 class="mb-5">My Skills</h4>
       <div class="row">
         <div class="col-sm-3 col-6" *ngFor="let image of imageList">
           <div class="skill-box">
@@ -34,13 +34,39 @@
     </div>
   </div>
   <div class="row mt-5">
-    <div class="col-12">
-      <h4>Experience</h4>
-      <p class="experience-text">
-        I have worked at two companies:<br>
-        - Company 1 (2023)<br>
-        - Company 2 (2024 - Present)
-      </p>
+    <div class="work-experience">
+      <h4 class="mb-5">Work Experience</h4>
+      <div class="experience ml-6">
+        <div class="experience-item">
+          <div class="experience-title">
+            <h5>Software Engineer</h5>
+            <span class="experience-date">(2023-2024)</span>
+          </div>
+          <p class="company">Zycus Infotech</p>
+          <ul class="responsibilities">
+            <li>Developed responsive and dynamic web applications using Angular framework.</li>
+            <li>Implemented front-end features according to project requirements and design specifications.</li>
+            <li>Collaborated with designers and backend developers to integrate UI elements with RESTful APIs.</li>
+            <li>Optimized application performance and enhanced user experience through efficient code practices.</li>
+            <li>Participated in code reviews and provided constructive feedback to team members.</li>
+          </ul>
+        </div>
+        <div class="experience-item">
+          <div class="experience-title">
+            <h5>Senior Operation Executive</h5>
+            <span class="experience-date">(2021-2023)</span>
+          </div>
+          <p class="company">Infosys Limited</p>
+          <ul class="responsibilities">
+            <li>Led the front-end development team in implementing Angular-based solutions for various projects.</li>
+            <li>Designed and developed reusable components to improve code maintainability and scalability.</li>
+            <li>Worked closely with project managers to prioritize tasks and meet project deadlines.</li>
+            <li>Provided technical guidance and mentorship to junior developers on Angular best practices.</li>
+            <li>Contributed to the continuous improvement of development processes and methodologies.</li>
+          </ul>
+        </div>
+      </div>
+
       <!-- SVG road line -->
       <svg width="100%" height="50">
         <line x1="0" y1="25" x2="100%" y2="25" style="stroke:#ff9800;stroke-width:2" />
@@ -49,16 +75,16 @@
   </div>
   <div class="container-fluid">
     <!-- Previous content -->
-    <div class="row mt-5">
+    <div class="row mt-5 text-center">
       <div class="col-12">
         <h4>Contact Me</h4>
         <div class="contact-info">
-          <p><i class="fas fa-envelope"></i> <strong>Email:</strong> example@example.com</p>
-          <p><i class="fas fa-phone"></i> <strong>Phone:</strong> +1234567890</p>
-          <p><i class="fas fa-map-marker-alt"></i> <strong>Location:</strong> City, Country</p>
+          <p><i class="fas fa-envelope"></i> <strong>Email:</strong> apekshaacharya88@gmail.com</p>
+          <p><i class="fas fa-phone"></i> <strong>Phone:</strong> +91 8722891770</p>
+          <p><i class="fas fa-map-marker-alt"></i> <strong>Location:</strong>Bangalore</p>
         </div>
         <div class="quote">
-          <p class="quote-text">"Your quote here"</p>
+          <p class="quote-text">"Strive for progress, not perfection."</p>
         </div>
       </div>
     </div>
