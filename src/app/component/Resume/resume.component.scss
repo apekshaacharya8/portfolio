@@ -1,0 +1,47 @@
+/* resume.component.css */
+
+
+.resume {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #f0f0f0 !important; /* Set your desired background color */
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.objective,
+.experience,
+.education,
+.skills,
+.certifications {
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p {
+  margin: 5px 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
