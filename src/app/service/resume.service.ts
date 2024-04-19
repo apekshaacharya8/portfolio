@@ -16,8 +16,8 @@ export class ResumeService {
       zip: '574213',
       email: 'apekshaacharya88@gmail.com',
       phone: '+91 8722891770',
-      linkedIn: 'Your LinkedIn Profile (Optional)',
-      objective: 'Your Objective',
+      linkedIn: 'https://www.linkedin.com/in/apeksha-acharya-994047165/',
+      objective: 'Results-driven Angular developer with 3 years of experience in designing and implementing dynamic web applications. Proficient in Angular framework, JavaScript, HTML, and CSS. Skilled in optimizing application performance and user experience. Seeking to leverage expertise in a collaborative team environment to contribute to innovative projects and advance career growth.',
       experience: [
         {
           title: 'Software Engineer',
@@ -68,7 +68,7 @@ export class ResumeService {
         'Angular CLI'
         // Add other skills as needed
       ],
-      certifications: ['Angular - The Complete Guide (2024 Edition), Bootstrap 5 Course - The Complete Guide Step by Step (2024)'
+      certifications: ['Angular - The Complete Guide (2024 Edition)', 'Bootstrap 5 Course - The Complete Guide Step by Step (2024)'
       ]
     };
   }
