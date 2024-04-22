@@ -1,0 +1,46 @@
+<!-- resume.component.html -->
+
+<div class="resume">
+  <div class="header">
+    <h1>{{ resumeData.name }}</h1>
+    <p>{{ resumeData.address }}, {{ resumeData.city }}, {{ resumeData.state }}, {{ resumeData.zip }}</p>
+    <p>Email: {{ resumeData.email }}</p>
+    <p>Phone: {{ resumeData.phone }}</p>
+    <p>LinkedIn: {{ resumeData.linkedIn }}</p>
+  </div>
+
+  <div class="objective">
+    <h2>Objective</h2>
+    <p>{{ resumeData.objective }}</p>
+  </div>
+
+  <div class="experience">
+    <h2>Professional Experience</h2>
+    <div *ngFor="let exp of resumeData.experience">
+      <h3>{{ exp.title }} - {{ exp.company }} ({{ exp.date }})</h3>
+      <p>{{ exp.location }}</p>
+      <ul>
+        <li *ngFor="let responsibility of exp.responsibilities">{{ responsibility }}</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="education">
+    <h2>Education</h2>
+    <p>{{ resumeData.education.degree }} in {{ resumeData.education.university }}, {{ resumeData.education.location }}, {{ resumeData.education.graduationYear }}</p>
+  </div>
+
+  <div class="skills">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li *ngFor="let skill of resumeData.skills">{{ skill }}</li>
+    </ul>
+  </div>
+
+  <div class="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li *ngFor="let certification of resumeData.certifications">{{ certification }}</li>
+    </ul>
+  </div>
+</div>
