@@ -1,7 +1,7 @@
-.text-heading {
-  color: goldenrod;
-  font-size: larger;
-}
+// .text-heading {
+//   color: goldenrod;
+//   font-size: larger;
+// }
 .container-fluid {
   color: white;
 }
@@ -12,7 +12,8 @@
 }
 
 .text-heading {
-  color: #ff9800; /* Change color as needed */
+  color: #ff9800;
+  font-size: larger;/* Change color as needed */
 }
 
 .about-text {
@@ -222,10 +223,76 @@ h4 {
 .background {
   background-size: cover;
   background-position: center;
-  height: 75vh;
+  height: 100vh;
 }
 
 .dashboard {
   background-color: black;
    color: white;
+}
+.btn-black {
+  background-color: #000;
+  color: #fff;
+}
+
+.background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+}
+
+.intro-text {
+  // font-size: 3em; /* Increased font size */
+  // color: #ffcc00; /* Golden color */
+  margin-bottom: 10px;
+}
+
+// .text-heading {
+//   color: #000; /* Black color */
+// }
+
+.sub-text {
+  font-size: 1.2em;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.tagline {
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.skills {
+  font-size: 1.2em;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.btn-black {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-black:hover {
+  background-color: #333;
+}
+@media only screen and (max-width: 800px) {
+ .smalltext{
+  display: none;
+ }
 }
