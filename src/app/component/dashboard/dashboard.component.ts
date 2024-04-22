@@ -43,4 +43,7 @@ ngOnInit(): void {
   // Optionally, adjust scroll position here
   window.scrollTo({ top: 0, behavior: 'smooth' }); // Scrolls to the top of the page when the home component is loaded
 }
+contact(){
+  window.open('https://www.linkedin.com/in/apeksha-acharya-994047165/')
+}
 }
