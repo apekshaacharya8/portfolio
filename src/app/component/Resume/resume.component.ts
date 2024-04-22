@@ -1,7 +1,7 @@
 // resume.component.ts
 
 import { Component, OnInit } from '@angular/core';
-import { ResumeService } from 'src/app/resume.service';
+import { ResumeService } from 'src/app/service/resume.service';
 
 
 @Component({
