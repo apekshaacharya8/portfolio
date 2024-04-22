@@ -69,6 +69,9 @@ export class ResumeService {
         // Add other skills as needed
       ],
       certifications: ['Angular - The Complete Guide (2024 Edition)', 'Bootstrap 5 Course - The Complete Guide Step by Step (2024)'
+      ],
+      Projects:[
+        'Portfolio Website'
       ]
     };
   }

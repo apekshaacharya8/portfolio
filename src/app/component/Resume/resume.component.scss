@@ -23,26 +23,28 @@
 }
 
 h1 {
-  font-size: 24px;
-  color: #333333; /* Text color for the heading */
+  font-size: 28px;
+ font-weight: bold; /* Text color for the heading */
   margin-bottom: 5px;
 }
 
 h2 {
   font-size: 20px;
-  color: #007bff; /* Text color for section headings */
+  font-weight: bold;
+//  color: #007bff; /* Text color for section headings */
   margin-bottom: 10px;
 }
 
 h3 {
   font-size: 18px;
-  color: #555555; /* Text color for subheadings */
+  font-weight: bold;
+ // color: #555555; /* Text color for subheadings */
   margin-bottom: 5px;
 }
 
 p {
   margin: 5px 0;
-  color: #666666; /* Text color for paragraphs */
+  //color: #666666; /* Text color for paragraphs */
 }
 
 ul {
@@ -51,5 +53,15 @@ ul {
 
 li {
   margin-bottom: 5px;
-  color: #777777; /* Text color for list items */
+ // color: #777777; /* Text color for list items */
+}
+
+a{
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.line-height {
+  line-height: 2.3;
 }
