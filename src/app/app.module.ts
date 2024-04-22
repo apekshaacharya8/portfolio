@@ -1,29 +1,23 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { RouterModule } from '@angular/router';
-import { HttpClientModule } from '@angular/common/http';
-import { ReactiveFormsModule } from '@angular/forms';
 
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DashBoardComponent } from './component/dashboard/dashboard.component';
 import { ResumeComponent } from './component/Resume/resume.component';
-
+import { ResumeService } from './service/resume.service';
 
 @NgModule({
-  imports: [
-    BrowserModule,
-    HttpClientModule,
-    ReactiveFormsModule,
-    RouterModule.forRoot([
-
-    ])
-  ],
   declarations: [
     AppComponent,
+    DashBoardComponent,
     ResumeComponent
-
   ],
-  bootstrap: [
-    AppComponent
-  ]
+  imports: [
+    BrowserModule,
+    AppRoutingModule
+  ],
+  providers: [ResumeService],
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
